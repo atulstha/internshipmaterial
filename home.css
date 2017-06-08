@@ -8,22 +8,52 @@ body {
     color:#fff;
     background-color:#333;
     font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+    margin-top: 20px;
 	 }
 
 .maincontainer{
 background-color:rgba(0, 0, 0, 0.5);
-
-
 }
 
-.col-lg-5{
+
+
+
+/* Button edit */
+.btn-glyphicon {
+    padding:8px;
+    background:#ffffff;
+    margin-right:4px;
+}
+.icon-btn {
+    padding: 1px 15px 3px 2px;
+    border-radius:50px;
+}
+/* Button edit */
+
+.withborder{
 	border: solid 4px;
     border-radius: 25px;
 	border-color: #42f468;
 	max-height:500px;
     margin:10px;
 	background-color:rgba(65, 172, 244, 0.2);
+
+
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 310px;
+  
 }	 
+.prof-img{
+  float: left;
+  width: 45px;
+  height: 45px;
+}
+
+.prof-btn{
+margin-left: -30px;
+ }
 	 /*---------- Backgroaund image----------- */
 		
 
@@ -34,6 +64,11 @@ margin:20px;
 height:1240px; 
 background-color:rgba(65, 172, 244, 0.2);
 
+}
+
+.leftnav > .col-lg-3 > .side-nav-item > h2{
+  border-bottom-style: double;
+  border-bottom-color:  #42f468;  
 }
 
 	 /*---------- advertisement animation----------- */
